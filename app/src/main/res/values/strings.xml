@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">Mockups</string>
+    <string name="go_all">GO ALL IN</string>
+    <string name="on_going">ON GOING ALL OUT</string>
+    <string name="find_team">Find a team in your city &amp; dominate the league</string>
+    <string name="get_started">GET STARTED</string>
+    <string name="Des_league">Desired League:</string>
+    <string name="mens">Mens</string>
+    <string name="womens">Womens</string>
+    <string name="coed">Co-ed</string>
+    <string name="nxt">Next</string>
+    <string name="iam">I am a:</string>
+    <string name="beg">Beginner</string>
+    <string name="baller">Baller</string>
+    <string name="finish">FINISH</string>
 </resources>

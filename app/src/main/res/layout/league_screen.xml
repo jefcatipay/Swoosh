@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="jef.catipay.com.mockups.WelcomeScreen_Act"
+    android:background="@drawable/desired_league_bg"
+    >
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/swoosh_logo"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <Button
+        android:id="@+id/mensBtn"
+        android:layout_width="364dp"
+        android:layout_height="49dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/custom_button1"
+        android:text="@string/mens"
+        android:textColor="@android:color/white"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="0dp"
+        app:layout_constraintTop_toBottomOf="@+id/output" />
+    <Button
+        android:id="@+id/womensBtn"
+        android:layout_width="364dp"
+        android:layout_height="49dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/custom_button1"
+        android:text="@string/womens"
+        android:textColor="@android:color/white"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="25dp"
+        app:layout_constraintTop_toBottomOf="@+id/mensBtn" />
+    <Button
+        android:id="@+id/coedBtn"
+        android:layout_width="364dp"
+        android:layout_height="49dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/custom_button1"
+        android:text="@string/coed"
+        android:textColor="@android:color/white"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="25dp"
+        app:layout_constraintTop_toBottomOf="@+id/womensBtn" />
+    <Button
+        android:id="@+id/nextBtn"
+        android:layout_width="364dp"
+        android:layout_height="49dp"
+        android:background="@drawable/custom_button2"
+        android:text="@string/nxt"
+        android:enabled="false"
+        android:textColor="#555555"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="16dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <TextView
+        android:id="@+id/output"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="56dp"
+        android:text="@string/Des_league"
+        android:textColor="@android:color/white"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintHorizontal_bias="0.501" />
+    <TextView
+        android:id="@+id/outputSkill"
+        android:layout_width="191dp"
+        android:layout_height="63dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="18dp"
+        android:text=""
+        android:visibility="invisible"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/outputIAM"
+        app:layout_constraintHorizontal_bias="0.502" />
+
+    <TextView
+        android:id="@+id/outputIAM"
+        android:layout_width="63dp"
+        android:layout_height="18dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="18dp"
+        android:visibility="invisible"
+        android:text="@string/iam"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/coedBtn" />
+
+</android.support.constraint.ConstraintLayout>
